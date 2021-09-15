@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'Tugas/Tugas12/Telegram.dart';
+import 'Tugas/Tugas13/LoginScreen.dart';
+import 'Tugas/Tugas13/HomeScreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,11 +11,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter Styling',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Telegram(),
+      home: LoginScreen(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
