@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'Tugas/Tugas13/LoginScreen.dart';
-import 'Tugas/Tugas13/HomeScreen.dart';
+import 'Tugas/Tugas14/get_data.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: LoginScreen(),
+      home: GetDataScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
