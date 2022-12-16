@@ -44,11 +44,14 @@ void main() {
 
   print("\n---------- No. 4 Membuat Tangga  ----------");
   var t = 7;
+  var out = "";
 
-  for (var i4 = 1; i4 <= t; ++i4) {
-    for (var j4 = 1; j4 <= i4; ++j4) {
-      stdout.write("#");
+  for (var i4 = 1; i4 <= t; i4++) {
+    for (var j4 = 1; j4 <= i4; j4++) {
+      out += j4.toString() + "";
+      //stdout.write("#");
     }
-    stdout.write("\n");
+    print(out);
+    //stdout.write("\n");
   }
 }
